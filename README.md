@@ -1,1 +1,2 @@
-# sfmc-frequency-suppression
+# SFMC Frequency Suppression
+
