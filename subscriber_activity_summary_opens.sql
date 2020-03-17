@@ -16,5 +16,6 @@ a.subscriberid
 , a.subscriberkey
 having count(*) > 0
 /* name: Subscriber_Activity_Summary_Opens */
+/* description: aggregates unique opens by subscriber in the past 7 days */
 /* target: Subscriber_Activity_Summary */
 /* action: update */

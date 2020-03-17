@@ -16,5 +16,6 @@ a.subscriberid
 , a.subscriberkey
 having count(*) > 0
 /* name: Subscriber_Activity_Summary_Clicks */
+/* description: aggregates unique clicks by subscriber in the past 7 days */
 /* target: Subscriber_Activity_Summary */
 /* action: update */
