@@ -4,7 +4,7 @@ from Subscriber_Activity_Summary sas
 inner join ent._Subscribers s on s.subscriberid = sas.subscriberid
 where 1=1
 and sas.sendCount > 3
-and s.EmailAddress not like '%degdigital.com'
+and s.EmailAddress not like '%example.com'
 and not exists (
 
     select top 1 w.*
